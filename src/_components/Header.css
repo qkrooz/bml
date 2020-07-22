@@ -1,0 +1,98 @@
+/* NAVIGATION BAR */
+.header {
+  background-color: black;
+  min-height: 4em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  -webkit-box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.31);
+  -moz-box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.31);
+  box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.31);
+}
+
+.logo {
+  width: 7em;
+  height: auto;
+  /* background: grey; */
+  margin: 0 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link {
+  font-size: 1em;
+  font-weight: 700;
+  padding: 0em 1em;
+  color: #adadad;
+}
+
+.active-link {
+  color: #ff2400;
+}
+
+nav a:hover {
+  color: #ff2400;
+  text-shadow: 2px 0px 10px #ff2400;
+  transition: all 0.2s;
+}
+
+.live-container {
+  height: 100%;
+  align-items: center;
+  flex-grow: 1;
+  justify-content: flex-end;
+  margin-right: 2em;
+}
+
+.controls {
+  display: flex;
+}
+
+.control {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 1em;
+}
+
+.control-stamp {
+  color: white;
+  padding: 0 5px;
+  font-weight: 600;
+  margin-bottom: 0 !important;
+  text-transform: uppercase;
+}
+
+.glow {
+  color: #ff2400;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #ff2400, 0 0 20px #ff2400, 0 0 30px #ff2400,
+      0 0 40px #ff2400, 0 0 50px #ff2400, 0 0 60px #ff2400, 0 0 70px #ff2400;
+  }
+
+  to {
+    text-shadow: 0 0 20px #ff2400, 0 0 30px #ff2400, 0 0 40px #ff2400,
+      0 0 50px #ff2400, 0 0 60px #ff2400, 0 0 70px #ff2400, 0 0 80px #ff2400;
+  }
+}
+
+.language-button {
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 1.2em;
+}
+
+/* NAVIGATION BAR ENDS */

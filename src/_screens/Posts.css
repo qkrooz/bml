@@ -1,0 +1,163 @@
+p {
+  margin-bottom: 0;
+}
+
+/* Standard Post */
+.gradient {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: black;
+  filter: opacity(0.4);
+  background: rgb(0, 0, 0);
+  background: linear-gradient(0deg,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(185, 185, 185, 1) 49%,
+      rgba(255, 255, 255, 0) 100%);
+}
+
+.standardPostContainer {
+  position: relative;
+  background-color: black;
+  max-height: auto;
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+.image {
+  height: 250px;
+  width: 100%;
+}
+
+.post-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.post-type {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #d62105;
+  color: white;
+  font-weight: bold;
+  padding: 3px 6px;
+  border-radius: 10px;
+}
+
+.postFooter {
+  padding: 1em;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.posttimeago {
+  display: flex;
+  align-items: center;
+}
+
+.date {
+  text-align: start;
+  color: white;
+  font-size: 0.8em;
+  font-weight: 300 !important;
+}
+
+.title {
+  width: 100%;
+  color: white;
+  font-weight: bold;
+  word-wrap: break-word;
+  font-size: 1.2em;
+}
+
+/* FullWidthPost */
+.fullWidthPostContainer {
+  width: 100%;
+  margin-bottom: 1em;
+  position: relative;
+}
+
+.fullWidthPostContainer img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.fw-info {
+  position: absolute;
+  bottom: 0;
+  right: 2%;
+}
+
+.fw-subtitle {
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: end;
+  margin-bottom: 3%;
+}
+
+.fw-title {
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: end;
+  margin-bottom: 0px;
+}
+
+/* Banner */
+.bannerPromoContainer {
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+.bannerPromoContainer img {
+  width: 100%;
+  height: auto;
+}
+
+/* Ad Container */
+.adContainer {
+  position: relative;
+  background-color: black;
+  max-height: auto;
+  width: 100%;
+  margin-bottom: 0.7em;
+}
+
+.adContainer img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.load-more-container-outter {
+  width: 100%;
+  padding: 2em;
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+
+.load-more-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgb(0, 0, 0);
+}
+
+.load-more-container:hover {
+  background: rgb(12, 12, 12);
+  transition: all 0.3s;
+}
+
+.load-more-container h1 {
+  margin: 0;
+  color: white;
+}

@@ -1,0 +1,58 @@
+.event-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #0e0e0e;
+  padding: 3%;
+  border-top: 1px solid grey;
+}
+
+.timeStamp {
+  color: grey;
+  font-weight: 600;
+  font-size: 1em;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.teams-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5% 0 5% 10%;
+}
+
+.teamImage {
+  height: 100%;
+  width: 3.5em;
+}
+
+.teamName {
+  color: white;
+  font-weight: 700;
+  font-size: 1.5em;
+  margin-bottom: 0;
+  text-align: center;
+  width: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #0e0e0e;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #464646;
+  /* border-radius: 20px; */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(66, 66, 66);
+  transition: 0.3s;
+}
